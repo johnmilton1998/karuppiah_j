@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic and research portfolio of J. Karuppiah — Chemistry, catalysis and nonthermal plasma research." />
+  <meta name="theme-color" content="#07111f" />
+  <title>J. Karuppiah | Research Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="J. Karuppiah home"><span class="brand-mark">JK</span><span>J. KARUPPIAH<span class="brand-sub">RESEARCH PORTFOLIO</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#research">Research</a><a href="#experience">Experience</a>
+        <a href="#publications">Publications</a><a href="#expertise">Expertise</a><a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">☼</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> CHEMISTRY · CATALYSIS · PLASMA SCIENCE</div>
+          <p class="hero-kicker">ACADEMIC & RESEARCH PROFILE</p>
+          <h1>J. <span>Karuppiah</span></h1>
+          <div class="role-line"><span id="typedRole">Chemistry Researcher</span><i class="typing-cursor"></i></div>
+          <p class="hero-description">Research experience in catalytic materials, nonthermal plasma technology, oxidation of volatile organic compounds and syngas production.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#publications">Explore publications <span>↗</span></a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-meta"><span><i class="meta-dot"></i> Chennai, India</span><span>Academic research profile</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="science-core"><div class="core-ring"></div><div class="core-symbol">JK<span>CHEMISTRY</span></div></div>
+          <div class="float-card card-publications"><span class="float-icon">✳</span><div><strong data-count="22">0</strong><small>Listed journal papers</small></div></div>
+          <div class="float-card card-research"><span class="float-icon">⌬</span><div><strong>Ph.D.</strong><small>Chemistry</small></div></div>
+          <div class="visual-caption">RESEARCH · DISCOVERY · INNOVATION</div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 / 08</span></div>
+    </section>
+
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div class="stat"><strong data-count="22">0</strong><span>Journal papers listed</span></div>
+        <div class="stat"><strong data-count="3">0</strong><span>Academic qualifications</span></div>
+        <div class="stat"><strong data-count="7">0</strong><span>Conference contributions listed</span></div>
+        <div class="stat"><strong>2013–15</strong><span>Postdoctoral research · South Korea</span></div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="section-label">01 / ABOUT</p>
+          <h2>Curiosity backed<br>by <em>research.</em></h2>
+          <p class="heading-note">A research profile built around chemistry, catalytic systems and plasma-assisted processes.</p>
+        </div>
+        <div class="about-content reveal">
+          <p class="lead">I am J. Karuppiah, a chemistry researcher with research experience in nonthermal plasma-assisted catalytic oxidation, catalyst preparation and characterization, and syngas production.</p>
+          <p>My academic and research work has included doctoral research at the National Institute of Technology Tiruchirappalli, research associate work at IIT Hyderabad, and postdoctoral research at Jeju National University, South Korea.</p>
+          <div class="about-facts">
+            <div><span>Research base</span><strong>Chemistry & Catalysis</strong></div>
+            <div><span>Doctoral thesis</span><strong>Nonthermal plasma-assisted catalytic oxidation</strong></div>
+            <div><span>Research location</span><strong>India · South Korea</strong></div>
+          </div>
+          <button class="text-button" id="printProfile">Print / Save profile as PDF <span>↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="research">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-label">02 / RESEARCH</p><h2>Areas of <em>investigation.</em></h2></div><p class="section-intro">Research themes documented in the academic CV.</p></div>
+        <div class="research-grid" id="researchGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="education">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-label">03 / EDUCATION</p><h2>Academic <em>foundation.</em></h2></div><p class="section-intro">Formal academic qualifications listed in the CV.</p></div>
+        <div class="education-list" id="educationList"></div>
+        <div class="thesis-box reveal"><span class="thesis-label">DOCTORAL THESIS</span><h3>“Nonthermal plasma-assisted catalytic oxidation of low concentrations of volatile organic compounds”</h3><p>Research supervisor: <strong>Dr. Ch. Subrahmanyam</strong></p></div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="experience">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-label">04 / EXPERIENCE</p><h2>Research <em>journey.</em></h2></div><p class="section-intro">Institutions, roles and dates as provided in the CV.</p></div>
+        <div class="timeline" id="experienceTimeline"></div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="publications">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-label">05 / PUBLICATIONS</p><h2>Selected research <em>papers.</em></h2></div><p class="section-intro">Search and filter the journal publications listed in the supplied CV.</p></div>
+        <div class="publication-toolbar">
+          <label class="search-box"><span>⌕</span><input type="search" id="publicationSearch" placeholder="Search title, journal, year or keyword..." aria-label="Search publications"></label>
+          <select id="yearFilter" aria-label="Filter publications by year"><option value="all">All years</option></select>
+          <span class="result-count" id="resultCount"></span>
+        </div>
+        <div class="publication-list" id="publicationList"></div>
+        <p class="source-note">Note: Publication titles and bibliographic details are transcribed from the supplied CV. Please verify final citation formatting, DOI links and publication status before formal use.</p>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="conferences">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-label">06 / CONFERENCES</p><h2>Sharing research <em>ideas.</em></h2></div><p class="section-intro">Conference and seminar contributions recorded in the CV.</p></div>
+        <div class="conference-grid" id="conferenceGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="expertise">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-label">07 / EXPERTISE</p><h2>Tools, methods & <em>skills.</em></h2></div><p class="section-intro">Research instruments, characterization techniques and software experience.</p></div>
+        <div class="expertise-layout">
+          <div><h3 class="subheading">Instruments & techniques</h3><div class="chip-list" id="instrumentList"></div></div>
+          <div><h3 class="subheading">Technical skills</h3><div class="skill-list" id="softwareList"></div></div>
+        </div>
+        <div class="responsibility-box"><div><p class="section-label">ACADEMIC CONTRIBUTION</p><h3>Teaching & student support</h3></div><ul><li>Coordinated and assisted M.Sc. and B.Tech. project students along with faculty.</li><li>Assisted M.Sc. and B.Tech. practical sessions, teaching activities and examinations along with faculty.</li></ul></div>
+        <div class="awards-row"><div><p class="section-label">AWARDS & ACHIEVEMENTS</p><h3>Academic milestones</h3></div><div class="award-items"><p><strong>2009</strong> — DST Senior Research Fellowship, Department of Science and Technology, New Delhi, India.</p><p><strong>2007 & 2008</strong> — Qualified GATE Examination.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-wrap">
+        <div class="contact-copy reveal"><p class="section-label">08 / CONTACT</p><h2>Let's connect<br>on <em>research.</em></h2><p>For academic communication, research collaboration or professional enquiries, please use the contact details below.</p></div>
+        <div class="contact-card reveal">
+          <div class="contact-item"><span>EMAIL</span><a href="mailto:karuppiah.research@example.com" id="emailLink">Add verified email address ↗</a></div>
+          <div class="contact-item"><span>PHONE</span><a href="tel:+918220702191">+91 82207 02191 ↗</a></div>
+          <div class="contact-item"><span>LOCATION</span><strong>Chennai, India</strong></div>
+          <p class="contact-warning">The email address was not clearly available in the CV text. Replace the placeholder in <code>script.js</code> with the correct address before publishing.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">JK</span><span>J. KARUPPIAH<span class="brand-sub">RESEARCH PORTFOLIO</span></span></a><p>© <span id="currentYear"></span> J. Karuppiah. Academic portfolio.</p><a href="#top" class="back-top">BACK TO TOP ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
